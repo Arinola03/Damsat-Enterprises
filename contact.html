@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damsat </title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <!-- google search https://boxicons.com, click on usage tab scroll down to usage as a font section copy
+    and paste this -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+     <!-- start header -->
+     <div class="head-nav">
+        <div class="logo">
+            <a href="index.html">Damsat Enterprises</a>
+        </div>
+        <input type="checkbox" id="toggler" name="">
+        <nav class="top-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+            </ul>
+         </nav>
+         <!-- back to box icon.com, type menu on the search bar, click on the menu that youm want, click
+        on font tab and copy and paste this -->
+        <label for="toggler" class="open-menu">
+            <i class="bx bx-menu"></i>
+        </label>
+     </div>
+   <!-- end header -->
+<!-- start contact -->
+    <!-- redirect user to your website after submitting to google sheets start -->
+     <script type="text/javascript">
+        var submitted = false;
+     </script>
+     
+     <iframe 
+     name="hidden_iframe"
+     id="hidden_iframe"
+     style="display: none"
+     onload="if(submitted) {window.location='index.html';}"
+     ></iframe>
+     <!-- redirect user to your website after submitting   to google sheet end -->
+     
+     <section class="section-five"> 
+        <div class="contact-top">
+            <h3>CONTACT ME</h3>
+        </div>
+        <div class="container">
+            <div class="contact-bottom">
+                <form 
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfc6jlvWdxQM4-jkdrq4pxHqbEi80l5sI6Sk4AYBX3SuYoh_A/formResponse"
+                class="form"
+                method="post"
+                target="hidden_iframe"
+                onsubmit="submitted=true"
+                >
+                
+                 <input type="text" placeholder="Your Name" name="entry.426428704"/>
+                <input type="email"  placeholder="Your Email" name="entry.1260129083" />
+                <input type="text"  placeholder="subject" name="entry.1801470222" />
+                <textarea rows="9" placeholder="message" name="entry.87406691" ></textarea>
+                <input type="submit" class="btn" value="Send Message">
+                </form>
+
+                <!-- map -->
+
+
+
+                <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.511950003739!2d3.3907771741842594!3d6.4566287935348745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b13947f4421%3A0x1f907152c2f8988f!2s2%20Evans%20St%2C%20Lagos%20Island%20102273%2C%20Lagos!5e0!3m2!1sen!2sng!4v1695589265434!5m2!1sen!2sng"
+                 width="500"
+                  height="600"
+                   style="border:0;"
+                    allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- end contact -->
+   
+    <!-- start footer here -->
+<footer class="footer">
+    <div class="footer-container container">
+      <div>
+        <h1>Damsat Enterprises</h1>
+        <P>Your Style,Our Expertise</P>
+      </div>
+    
+      <nav class="bottom-nav">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+        </ul>
+     </nav>
+    </div>
+     <p>&copy; Damsat Enterprises 2023</p>
+    </footer>
+    <!-- end footer here -->
+</body>
+</html>
